@@ -14,4 +14,4 @@ class Punto2d:
 
 mi_punto = Punto2d(4, 0)
 
-print(mi_punto.get_distance(2, 2))
+print('La distancia es {:.2f}'.format(mi_punto.get_distance(2, 2)))
